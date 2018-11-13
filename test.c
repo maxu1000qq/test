@@ -17,7 +17,7 @@ struct my_msg_st
 int msgid;
 int count=0;
 int running=1;
-//你好
+//你好ya
 void *mysend(void *arg){
     while(running){
      char str[100];
